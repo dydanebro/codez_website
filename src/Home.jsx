@@ -1,11 +1,18 @@
 import React from "react";
 import logo from './assets/logo.png';
 import icon from './assets/icon.png'
+import flyer1 from './assets/flyer1.jpeg';
+import flyer2 from './assets/flyer2.jpeg';
+import flyer3 from './assets/flyer3.jpeg';
+import website1 from './assets/website1.jpeg';
+import website2 from './assets/website2.jpeg';
+import website3 from './assets/website3.jpeg';
+import './App.css';
 
 const Home = () => {
     return (
-        <div className="container-fluid w-100 m-0">
-            <section id="banner" className="bg-black">
+        <div className="container-fluid w-100 m-0 p-0">
+            <section id="banner" className="bg-dark banner">
                 <h1 className="text-center text-light">Welcome to</h1>
                 <div className="home container-fluid d-flex justify-content-center align-items-center pb-5">
                     <img
@@ -15,21 +22,25 @@ const Home = () => {
                     />
                 </div>
             </section>
-            <section id="services" className="mt-5 mb-5">
+            <section id="services" className="mt-5 mb-5 p-3">
                 <h3 className="text-dark text-center pb-3" id="about_h">Our Services</h3>
                 <div className="row mt-5">
                     <div className="col-md-3">
                         <div class="card">
-                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                                <div class="carousel-inner">
+                            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-inner"
+                                    style={{
+                                        maxHeight: 200,
+                                        height: 200,
+                                    }}>
                                     <div class="carousel-item active">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={flyer1} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={flyer2} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={flyer3} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -50,16 +61,20 @@ const Home = () => {
                     </div>
                     <div className="col-md-3">
                         <div class="card">
-                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                                <div class="carousel-inner">
+                            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-inner"
+                                    style={{
+                                        maxHeight: 200,
+                                        height: 200,
+                                    }}>
                                     <div class="carousel-item active">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={website3} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={website2} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={icon} class="d-block w-100" alt="..." />
+                                        <img src={website1} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -80,8 +95,12 @@ const Home = () => {
                     </div>
                     <div className="col-md-3">
                         <div class="card">
-                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                                <div class="carousel-inner">
+                            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-inner"
+                                    style={{
+                                        maxHeight: 200,
+                                        height: 200,
+                                    }}>
                                     <div class="carousel-item active">
                                         <img src={icon} class="d-block w-100" alt="..." />
                                     </div>
@@ -111,7 +130,11 @@ const Home = () => {
                     <div className="col-md-3">
                         <div class="card">
                             <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                                <div class="carousel-inner">
+                                <div class="carousel-inner"
+                                    style={{
+                                        maxHeight: 200,
+                                        height: 200,
+                                    }}>
                                     <div class="carousel-item active">
                                         <img src={icon} class="d-block w-100" alt="..." />
                                     </div>

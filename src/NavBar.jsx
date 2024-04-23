@@ -3,7 +3,7 @@ import icon from './assets/icon.png'
 
 const NavBar = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black header">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src={icon} alt="codez icon" className="icon" /></a>

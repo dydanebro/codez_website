@@ -49,6 +49,10 @@
     height: 100%;
 }
 
+.banner {
+    background-color: #0389FF;
+}
+
 /* #about_h {
     border: 0;
     transition: 0.5s;
